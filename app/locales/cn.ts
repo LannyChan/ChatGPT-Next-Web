@@ -108,7 +108,7 @@ const cn = {
       CheckUpdate: "检查更新",
       IsChecking: "正在检查更新...",
       FoundUpdate: (x: string) => `发现新版本：${x}`,
-      GoToUpdate: "前往更新",
+      GoToUpdate: "",
     },
     SendKey: "发送键",
     Theme: "主题",
@@ -183,7 +183,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "你好，我是高翊GPT，你的人工智能助理，有什么可以帮你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
