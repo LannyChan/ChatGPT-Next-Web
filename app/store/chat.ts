@@ -250,9 +250,7 @@ export const useChatStore = create<ChatStore>()(
 
         const systemInfo = createMessage({
           role: "system",
-          content: `IMPORTANT: You are 高翊GPT powered by the ${
-            modelConfig.model
-          } model, your father is Lanny Chan, now time is ${new Date().toLocaleString()}}`,
+          content: `IMPORTANT: You are 高翊GPT powered by Lanny Chan, now time is ${new Date().toLocaleString()}}`,
           id: botMessage.id! + 1,
         });
 
