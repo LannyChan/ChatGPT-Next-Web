@@ -173,7 +173,7 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href="#" onClick={() => alert('欢迎访问高翊GPT，本服务永久免费，谢谢支持！n/Powered by Lanny Chan.')}>
+            <a href="#" onClick={() => alert('欢迎访问高翊GPT！')}>
               <IconButton icon={<GithubIcon />} shadow />
             </a>
           </div>
